@@ -8,16 +8,17 @@
 pip install requests
 ```
 
-now to run the command after making a api file which is attached type
+**Now to run the command after making a api file which is attached type**
 ```
 sudo python api.py
 ```
 
-now to display information first go to thinkspeak.com > thinghttp > newthinghttp 
+**Now to display information first go to thinkspeak.com > thinghttp > newthinghttp 
 now inspect the page of any website you want to retrieve data from inspect the page take the xpath of the particular info you are interested in retrieving from that website.
-paste it in the parse string then also past the website url link in the link section.
-
-next the website gives you a link, copy that and paste it in the api file in the link space which is what you want to print.
+paste it in the parse string then also past the website url link in the link section.**
+*
+Next the website gives you a link, copy that and paste it in the api file in the link space which is what you want to print.
+*
 
 
 
@@ -32,11 +33,14 @@ ifconfig                           //to check your raspberry pi's dynamic ip add
 
 cd /var/www                        //to navigate to the url
 
-cd html                              
+cd html
+
 ls                                  // navigating to the html file we get the file name as filename.html
 
 sudo chown pi: filename.html        // to be able to edit the webpage 
+
 sudo rm filename.html               // to clear the file
+
 sudo nano filename.html             // to start editing you own website page
 ```
 
